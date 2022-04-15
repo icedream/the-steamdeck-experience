@@ -90,18 +90,25 @@ configuration that allows the touch screen to be initialized properly. In a
 support ticket, Valve's support team did say they were going to fix it in a
 future firmware update.
 
-[A reddit user has documented the workaround with the support ticket quote.](https://www.reddit.com/r/SteamDeck/comments/t7skls/comment/hzr2elr/?utm_source=reddit&utm_medium=web2x&context=3)
+[A reddit user has documented the workaround with the support ticket
+quote.](https://www.reddit.com/r/SteamDeck/comments/t7skls/comment/hzr2elr/?utm_source=reddit&utm_medium=web2x&context=3)
 
-> We've identified a firmware initialization issue that causes the touchscreen to stop responding. The fix is being tested now, and will roll out in an upcoming BIOS update.  
-> If your touchscreen stops responding, a simple reboot is not enough to clear the issue. However, you can reset the touchscreen by putting the Steam Deck into battery storage mode:
+> We've identified a firmware initialization issue that causes the touchscreen
+> to stop responding. The fix is being tested now, and will roll out in an
+> upcoming BIOS update.  
+> If your touchscreen stops responding, a simple reboot is not enough to clear
+> the issue. However, you can reset the touchscreen by putting the Steam Deck
+> into battery storage mode:
 >
 > - Power the Steam Deck down normally (choose Shut Down from the Power menu)
-> - Hold down the Volume+ button and press the power button. The Steam Deck should boot into the BIOS menu.
+> - Hold down the Volume+ button and press the power button. The Steam Deck
+>   should boot into the BIOS menu.
 > - Using the D-Pad and A to select, navigate to "Setup Utility"
 > - Navigate to the Power Menu
 > - Choose Battery storage mode, and confirm.
 >
-> You should see the Steam Deck power off, and the power LED will blink three times to confirm battery storage mode.  
+> You should see the Steam Deck power off, and the power LED will blink three
+> times to confirm battery storage mode.  
 > Plug the Steam Deck in to the supplied power supply. Turn on the Steam Deck.
 
 ## Installing software
