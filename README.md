@@ -5,12 +5,30 @@ people stumble upon stuff, they can verify it here. Feel free to create a PR to
 add your own experiences, I'm mostly treating this like a Wiki.
 
 - [The Steam Deck Experience](#the-steam-deck-experience)
+  - [Hardware](#hardware)
+    - [Fan noise](#fan-noise)
   - [Recovery image](#recovery-image)
     - [USB disk performance](#usb-disk-performance)
   - [Microphone](#microphone)
   - [Touch screen stops working](#touch-screen-stops-working)
 - [Installing software](#installing-software)
   - [OBS](#obs)
+
+## Hardware
+
+### Fan noise
+
+The community is aware of an issue with certain Decks being equipped with a
+different fan that has a loud "whining" noise when it spins up as opposed to the
+fan used in early units that did not have this. A Discord user's guess was that
+the newer "delta" fan is built more symmetrically, causing feedback noise to be
+very resonant. Affected Decks often seem to have a serial number starting with
+`20`.
+
+My Deck does not have this issue (serial number starts with `1510`). I have made
+a recording of the fan noise on my unit.
+
+[Deck fan noise levels (4 levels, each 5 seconds)](audio/noise-levels-deck.ogg)
 
 ## Recovery image
 
