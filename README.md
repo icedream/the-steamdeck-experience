@@ -9,6 +9,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
     - [Fan noise](#fan-noise)
   - [Recovery image](#recovery-image)
     - [USB disk performance](#usb-disk-performance)
+  - [System updates](#system-updates)
   - [Microphone](#microphone)
   - [Touch screen stops working](#touch-screen-stops-working)
   - [Installing software](#installing-software)
@@ -42,6 +43,21 @@ right on the disk. Even after it is done with that it may still perform poorly
 due to a lot of system logs being written. If you tinker around with the
 recovery image make sure that you have the system partition set read-only
 (`steamos-readonly enable`), otherwise expect continuous slow downs.
+
+## System updates
+
+SteamOS handles updates to the operating system via [RAUC](https://rauc.io) and
+an A/B partition structure. Updates are essentially just images being written to
+the root filesystem partition, of which there are two, an "A" and a "B"
+partition (EFI and var partitions both also seem to have an A and B partition
+each).
+
+Updates will always be installed to the partset that you are currently *not*
+running SteamOS from. It is then marked as the partset to boot from before
+reboot. If the newly written image fails to boot, then the bootloader will fall
+back to the old partset in order to restore functionality. Otherwise the
+operating system on the new partset will mark itself as successfully booted and
+the bootloader will continue to use it in the future.
 
 ## Microphone
 
