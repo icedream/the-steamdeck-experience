@@ -14,7 +14,7 @@ The Steam Deck has a dual microphone array similar to the Valve index, however w
 
 I'm linking a recording I did with Audacity and JACK that I posted on Discord here:
 
-![Deck Microphone Test (raw and "Filter Chain")](https://cdn.discordapp.com/attachments/865753851192934402/964370682546880542/deck-microphone-test-raw-and-filterchain.ogg)
+[Deck Microphone Test (raw and "Filter Chain")](audio/deck-microphone-test-raw-and-filterchain.ogg)
 
 ## Touch screen stops working
 
