@@ -117,7 +117,7 @@ Generally, it is considered a bad idea to use `pacman` or `yay` to install
 software on the Deck despite the fact it runs on top of Arch Linux. The reason
 is the way that SteamOS updates itself: Updates are not incremental but affect
 the whole partition, and all system modifications except for a few overlay paths
-and the /home and /var partitions will get completely overwritten.
+and the /home partition will get completely overwritten.
 
 Instead, you should use Flatpak or other means to install software to /var or
 /home instead.
