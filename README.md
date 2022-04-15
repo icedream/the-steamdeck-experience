@@ -11,8 +11,8 @@ add your own experiences, I'm mostly treating this like a Wiki.
     - [USB disk performance](#usb-disk-performance)
   - [Microphone](#microphone)
   - [Touch screen stops working](#touch-screen-stops-working)
-- [Installing software](#installing-software)
-  - [OBS](#obs)
+  - [Installing software](#installing-software)
+    - [OBS](#obs)
 
 ## Hardware
 
@@ -74,7 +74,7 @@ configuration that allows the touch screen to be initialized properly. In a
 support ticket, Valve's support team did say they were going to fix it in a
 future firmware update.
 
-# Installing software
+## Installing software
 
 Generally, it is considered a bad idea to use `pacman` or `yay` to install
 software on the Deck despite the fact it runs on top of Arch Linux. The reason
@@ -85,7 +85,7 @@ and the /home and /var partitions will get completely overwritten.
 Instead, you should use Flatpak or other means to install software to /var or
 /home instead.
 
-## OBS
+### OBS
 
 A special case with OBS is the installation of plugins: If you can't find
 plugins ready to install in Flatpak, you will need to add them to
