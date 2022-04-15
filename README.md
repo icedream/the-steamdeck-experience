@@ -62,13 +62,13 @@ the bootloader will continue to use it in the future.
 ## Microphone
 
 The Steam Deck has a dual microphone array similar to the Valve Index, however
-while it is directional it still picks up a bit of the background noise coming
-from the fan. For this reason, Valve by default configures a virtual recording
-device for software to use which is called the "Filter Chain Source". It adds a
-few effects to filter out the noise completely and slightly reduce the volume of
-input clicks and haptics audible in the microphone. There is a third device that
-tries to cancel audible echo, however I've not used it, and I suspect that the
-Filter Chain Source makes use of it internally anyways.
+it picks up a bit of the background noise coming from the fan. For this reason,
+Valve configures a virtual recording device for software to use by default which
+is called the "Filter Chain Source". It adds a few effects to filter out the
+noise completely and slightly reduce the volume of input clicks and haptics
+audible in the microphone. There is a third device that tries to cancel audible
+echo, however I've not used it, and I suspect that the Filter Chain Source makes
+use of it internally anyways.
 
 I'm linking a recording I did with Audacity and JACK that I posted on Discord
 here:
