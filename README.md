@@ -2,6 +2,14 @@
 
 I am documenting my experience with the Steam Deck thus far here publicly so if people stumble upon stuff, they can verify it here. Feel free to create a PR to add your own experiences, I'm mostly treating this like a Wiki.
 
+- [The Steam Deck Experience](#the-steam-deck-experience)
+  - [Recovery image](#recovery-image)
+    - [USB disk performance](#usb-disk-performance)
+  - [Microphone](#microphone)
+  - [Touch screen stops working](#touch-screen-stops-working)
+- [Installing software](#installing-software)
+  - [OBS](#obs)
+
 ## Recovery image
 
 ### USB disk performance
