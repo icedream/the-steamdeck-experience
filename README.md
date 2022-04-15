@@ -49,8 +49,8 @@ recovery image make sure that you have the system partition set read-only
 SteamOS handles updates to the operating system via [RAUC](https://rauc.io) and
 an A/B partition structure. Updates are essentially just images being written to
 the root filesystem partition, of which there are two, an "A" and a "B"
-partition (EFI and var partitions both also seem to have an A and B partition
-each).
+partition (EFI, ESP and var partitions both also seem to have an A and B
+partition each).
 
 Updates will always be installed to the partset that you are currently *not*
 running SteamOS from. It is then marked as the partset to boot from before
