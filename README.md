@@ -6,6 +6,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
 
 - [The Steam Deck Experience](#the-steam-deck-experience)
   - [Hardware](#hardware)
+    - [Charging](#charging)
     - [Fan noise](#fan-noise)
   - [Recovery image](#recovery-image)
     - [USB disk performance](#usb-disk-performance)
@@ -33,6 +34,20 @@ It overall runs at peak wattage of 40 W.
 Depending on where you look on the Internet the hardware seems to be codenamed
 either "Jupiter" or "Neptune". Seemingly "Neptune" is the later established
 codename when Valve also referred to the Steam Deck as "SteamPal".
+
+### Charging
+
+The hardware ships configured "battery storage mode" which prevents you from
+turning it on until you charge it at least once. This mode can
+actually be re-enabled later in the firmware menu which I'll get to later.
+
+The included charger provides 45 W via USB-C.
+
+Even though I have a USB hub that can provide it with 60 W, the Steam Deck seems
+to not negotiate with the hub that it can be charged faster, and so does not get
+enough power to actually charge properly.
+
+I did not try hooking a device other than the Deck to the Deck's power supply yet.
 
 ### Fan noise
 
