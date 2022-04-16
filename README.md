@@ -18,6 +18,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
   - [Touch screen stops working](#touch-screen-stops-working)
   - [Installing software](#installing-software)
     - [OBS](#obs)
+  - [ACPI firmware issue (`AE_AML_METHOD_LIMIT`)](#acpi-firmware-issue-ae_aml_method_limit)
 
 ## Hardware
 
@@ -241,3 +242,25 @@ v5 and compiled it yourself) to point to the plugin's directory so you can copy
 For system libraries such as avahi, there is currently no good way to just
 insert libraries into the Flatpak space OBS runs in. You will have to repackage
 your plugin as a Flatpak addon if not available as such already.
+
+## ACPI firmware issue (`AE_AML_METHOD_LIMIT`)
+
+The SteamOS kernel generates a lot of error messages that look like this:
+
+```
+ACPI Error: Aborting method \_SB.PCI0.LPC0.EC0.VFCD.PDVL due to previous error (AE_AML_METHOD_LIMIT) (20210331/psparse-529)
+```
+
+or:
+
+```
+Apr 16 06:35:25 icedeck kernel: ACPI Error: Method reached maximum reentrancy limit (255) (20210331/dsmethod-309)
+```
+
+The above errors are repeated at an insane speed, causing systemd journal log
+rotations to happen way too often.
+
+[The issue has been reported by the community
+before](https://www.reddit.com/r/SteamDeck/comments/t63kfb/kernel_log_spammed_with_acpi_errors_can_anyone/)
+and [is confirmed to be a firmware issue awaiting a
+patch](https://twitter.com/lawrenceyang/status/1499537308659306496?s=21).
