@@ -17,6 +17,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
   - [Microphone](#microphone)
   - [Touch screen stops working](#touch-screen-stops-working)
   - [Installing software](#installing-software)
+    - [Emulation](#emulation)
     - [OBS](#obs)
   - [ACPI firmware issue (`AE_AML_METHOD_LIMIT`)](#acpi-firmware-issue-ae_aml_method_limit)
 
@@ -211,6 +212,14 @@ and the /home partition will get completely overwritten.
 
 Instead, you should use Flatpak or other means to install software to /var or
 /home instead.
+
+### Emulation
+
+[EmuDeck](https://www.emudeck.com/) provides an easy way to automatically set up many
+emulators on the Steam Deck. It provides the emulation apps with a default
+configuration and some specific settings. It also gives additional instructions
+on how to get the emulators running with firmware, keys, ROMs etc., making it
+very easy for even beginners to do.
 
 ### OBS
 
