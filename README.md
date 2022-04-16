@@ -263,7 +263,7 @@ ACPI Error: Aborting method \_SB.PCI0.LPC0.EC0.VFCD.PDVL due to previous error (
 or:
 
 ```
-Apr 16 06:35:25 icedeck kernel: ACPI Error: Method reached maximum reentrancy limit (255) (20210331/dsmethod-309)
+ACPI Error: Method reached maximum reentrancy limit (255) (20210331/dsmethod-309)
 ```
 
 The above errors are repeated at an insane speed, causing systemd journal log
