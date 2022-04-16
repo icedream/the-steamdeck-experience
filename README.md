@@ -11,6 +11,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
   - [Firmware](#firmware)
   - [SteamOS 3](#steamos-3)
     - [USB disk performance](#usb-disk-performance)
+    - [Only configuring LAN on setup causes issues](#only-configuring-lan-on-setup-causes-issues)
   - [System updates](#system-updates)
   - [Microphone](#microphone)
   - [Touch screen stops working](#touch-screen-stops-working)
@@ -103,6 +104,17 @@ Even after SteamOS is done with initialization, it may still perform poorly on a
 USB key due to a lot of system logs being written. If you tinker around with the
 recovery image make sure that you have the system partition set read-only
 (`steamos-readonly enable`), otherwise expect continuous slow downs.
+
+### Only configuring LAN on setup causes issues
+
+You can use a USB LAN adapter to connect the Deck to the network, however during
+first setup you definitely should not use it and configure at least one WiFi
+network instead. Otherwise, the very first update cycle that SteamOS will
+inevitably run straight after setup will fail on a loop behind the scenes,
+effectively causing a softlock.
+
+Only after you have done the initial update and have already configured at least
+one WiFi network, you can start setting up LAN without further issues.
 
 ## System updates
 
