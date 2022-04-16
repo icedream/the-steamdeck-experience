@@ -31,7 +31,8 @@ following hardware:
   - Frequency between 1.6 to 2.8 GHz
   - AMD Van Gogh SoC (codenamed "Aerith"?)
 - 16 GB RAMter
-- An NVMe disk reporting itself as `Kingston Technology Company, Inc. OM3PDP3 NVMe SSD (rev 01)`
+- An NVMe disk reporting itself as `Kingston Technology Company, Inc. OM3PDP3
+  NVMe SSD (rev 01)`
 - RTL8822CE 802.11ac wireless network adapter (handles Bluetooth and WLAN)
 
 It overall runs at peak wattage of 40 W.
@@ -43,8 +44,8 @@ codename when Valve also referred to the Steam Deck as "SteamPal".
 ### Charging
 
 The hardware ships configured "battery storage mode" which prevents you from
-turning it on until you charge it at least once. This mode can
-actually be re-enabled later in the firmware menu which I'll get to later.
+turning it on until you charge it at least once. This mode can actually be
+re-enabled later in the firmware menu which I'll get to later.
 
 The included charger provides 45 W via USB-C.
 
@@ -52,7 +53,8 @@ Even though I have a USB hub that can provide it with 60 W, the Steam Deck seems
 to not negotiate with the hub that it can be charged faster, and so does not get
 enough power to actually charge properly.
 
-I did not try hooking a device other than the Deck to the Deck's power supply yet.
+I did not try hooking a device other than the Deck to the Deck's power supply
+yet.
 
 ### Fan noise
 
@@ -94,9 +96,9 @@ customizations and the repository itself carry the "Jupiter" codename instead.
 
 On first bootup, SteamOS 3 will initialize a bunch of stuff: It will populate
 the /var partition and resize the /home partition to fill the rest of the disk
-space. This process happens both on the
-actual SteamOS installation as well as on the recovery installation on a USB
-key and can take several minutes, depending on the storage medium.
+space. This process happens both on the actual SteamOS installation as well as
+on the recovery installation on a USB key and can take several minutes,
+depending on the storage medium.
 
 Throughout the whole bootup process SteamOS will not show any further
 indications until it reaches the stage where the Steam client boots up.
@@ -215,8 +217,8 @@ Instead, you should use Flatpak or other means to install software to /var or
 
 ### Emulation
 
-[EmuDeck](https://www.emudeck.com/) provides an easy way to automatically set up many
-emulators on the Steam Deck. It provides the emulation apps with a default
+[EmuDeck](https://www.emudeck.com/) provides an easy way to automatically set up
+many emulators on the Steam Deck. It provides the emulation apps with a default
 configuration and some specific settings. It also gives additional instructions
 on how to get the emulators running with firmware, keys, ROMs etc., making it
 very easy for even beginners to do.
