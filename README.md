@@ -7,8 +7,8 @@ add your own experiences, I'm mostly treating this like a Wiki.
 - [The Steam Deck Experience](#the-steam-deck-experience)
   - [Hardware](#hardware)
     - [Charging](#charging)
-    - [Firmware](#firmware)
     - [Fan noise](#fan-noise)
+  - [Firmware](#firmware)
   - [SteamOS 3](#steamos-3)
     - [USB disk performance](#usb-disk-performance)
   - [System updates](#system-updates)
@@ -50,7 +50,22 @@ enough power to actually charge properly.
 
 I did not try hooking a device other than the Deck to the Deck's power supply yet.
 
-### Firmware
+### Fan noise
+
+The community is aware of an issue with certain Decks being equipped with a
+different fan that has a loud "whining" noise when it spins up as opposed to the
+fan used in early units that did not have this. A Discord user's guess was that
+the newer "delta" fan is built more symmetrically, causing feedback noise to be
+very resonant. Affected Decks often seem to have a serial number starting with
+`20`.
+
+My Deck does not have this issue (serial number starts with `1510`). I have made
+a recording of the fan noise on my unit.
+
+[Deck fan noise levels (4 levels, each 5 seconds)](audio/noise-levels-deck.ogg)
+
+
+## Firmware
 
 On powering up the Deck the firmware will greet you with a [three-tone jingle
 audible through the trackpads](audio/jingle.ogg). This is similar to how the
@@ -65,20 +80,6 @@ Volume- button while pressing the Power button.
 My current knowledge is that Valve is working on Dual Boot support for
 installing Windows next to SteamOS, however as of right now that does not seem
 to work without issues according to community feedback.
-
-### Fan noise
-
-The community is aware of an issue with certain Decks being equipped with a
-different fan that has a loud "whining" noise when it spins up as opposed to the
-fan used in early units that did not have this. A Discord user's guess was that
-the newer "delta" fan is built more symmetrically, causing feedback noise to be
-very resonant. Affected Decks often seem to have a serial number starting with
-`20`.
-
-My Deck does not have this issue (serial number starts with `1510`). I have made
-a recording of the fan noise on my unit.
-
-[Deck fan noise levels (4 levels, each 5 seconds)](audio/noise-levels-deck.ogg)
 
 ## SteamOS 3
 
