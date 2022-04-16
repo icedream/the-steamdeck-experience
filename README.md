@@ -9,7 +9,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
     - [Charging](#charging)
     - [Firmware](#firmware)
     - [Fan noise](#fan-noise)
-  - [Recovery image](#recovery-image)
+  - [SteamOS 3](#steamos-3)
     - [USB disk performance](#usb-disk-performance)
   - [System updates](#system-updates)
   - [Microphone](#microphone)
@@ -80,7 +80,12 @@ a recording of the fan noise on my unit.
 
 [Deck fan noise levels (4 levels, each 5 seconds)](audio/noise-levels-deck.ogg)
 
-## Recovery image
+## SteamOS 3
+
+The pre-installed OS on the Deck is SteamOS 3, based on Arch Linux. It uses KDE
+Plasma for Desktop mode and Gamescope with Steam's newly introduced Deck UI for
+Gaming mode. Its codename seems to be "Holo", though a lot of software
+customizations and the repository itself carry the "Jupiter" codename instead.
 
 ### USB disk performance
 
