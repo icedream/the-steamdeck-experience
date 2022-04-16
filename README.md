@@ -223,6 +223,9 @@ configuration and some specific settings. It also gives additional instructions
 on how to get the emulators running with firmware, keys, ROMs etc., making it
 very easy for even beginners to do.
 
+It also takes care of adding emulated games as their own entries with images
+included to Steam library through Steam ROM Manager.
+
 ### OBS
 
 A special case with OBS is the installation of plugins: If you can't find
