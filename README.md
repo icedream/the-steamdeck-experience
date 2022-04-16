@@ -7,6 +7,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
 - [The Steam Deck Experience](#the-steam-deck-experience)
   - [Hardware](#hardware)
     - [Charging](#charging)
+    - [Firmware](#firmware)
     - [Fan noise](#fan-noise)
   - [Recovery image](#recovery-image)
     - [USB disk performance](#usb-disk-performance)
@@ -48,6 +49,22 @@ to not negotiate with the hub that it can be charged faster, and so does not get
 enough power to actually charge properly.
 
 I did not try hooking a device other than the Deck to the Deck's power supply yet.
+
+### Firmware
+
+On powering up the Deck the firmware will greet you with a [three-tone jingle
+audible through the trackpads](audio/jingle.ogg). This is similar to how the
+Steam Controller plays a jingle through its trackpads as well.
+
+The Deck's firmware has a settings menu accessible by holding down the Volume+
+button while pressing the Power button.
+
+There is also a boot menu that you use to boot the recovery by holding down the
+Volume- button while pressing the Power button.
+
+My current knowledge is that Valve is working on Dual Boot support for
+installing Windows next to SteamOS, however as of right now that does not seem
+to work without issues according to community feedback.
 
 ### Fan noise
 
