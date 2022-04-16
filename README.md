@@ -12,6 +12,7 @@ add your own experiences, I'm mostly treating this like a Wiki.
   - [SteamOS 3](#steamos-3)
     - [USB disk performance](#usb-disk-performance)
     - [Only configuring LAN on setup causes issues](#only-configuring-lan-on-setup-causes-issues)
+    - [Virtual keyboard](#virtual-keyboard)
   - [System updates](#system-updates)
   - [Microphone](#microphone)
   - [Touch screen stops working](#touch-screen-stops-working)
@@ -115,6 +116,22 @@ effectively causing a softlock.
 
 Only after you have done the initial update and have already configured at least
 one WiFi network, you can start setting up LAN without further issues.
+
+### Virtual keyboard
+
+SteamOS provides you with a virtual keyboard that can be overlaid on top of all
+other currently running apps. It can be used in Gaming mode via the touch screen
+or via both trackpads. The shortcut to open the keyboard is "Steam"+X.
+
+Using the keyboard via the touch screen is unfortunately not a perfect
+experience: There are inputs getting dropped despite the haptic feedback quite
+often.
+
+The virtual keyboard can also be used in Desktop mode.
+
+As of end of March, SteamOS allows using the Steam-provided virtual keyboard in
+Desktop mode with both trackpads. This allows for a way more consistent typing
+experience, though it definitely needs to be learned.
 
 ## System updates
 
