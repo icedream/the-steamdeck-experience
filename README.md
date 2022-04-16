@@ -263,4 +263,5 @@ rotations to happen way too often.
 [The issue has been reported by the community
 before](https://www.reddit.com/r/SteamDeck/comments/t63kfb/kernel_log_spammed_with_acpi_errors_can_anyone/)
 and [is confirmed to be a firmware issue awaiting a
-patch](https://twitter.com/lawrenceyang/status/1499537308659306496?s=21).
+patch](https://twitter.com/lawrenceyang/status/1499537308659306496?s=21). It
+seems to be related to USB power delivery monitoring not working properly.
