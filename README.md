@@ -88,14 +88,19 @@ Plasma for Desktop mode and Gamescope with Steam's newly introduced Deck UI for
 Gaming mode. Its codename seems to be "Holo", though a lot of software
 customizations and the repository itself carry the "Jupiter" codename instead.
 
+On first bootup, SteamOS 3 will initialize a bunch of stuff: It will populate
+the /var partition and resize the /home partition to fill the rest of the disk
+space. This process happens both on the
+actual SteamOS installation as well as on the recovery installation on a USB
+key and can take several minutes, depending on the storage medium.
+
+Throughout the whole bootup process SteamOS will not show any further
+indications until it reaches the stage where the Steam client boots up.
+
 ### USB disk performance
 
-After initially flashing the recovery image on a USB disk and booting it up, it
-may take several minutes or even beyond 10 to boot. It entirely depends on the
-USB disk's performance since the recovery image will try to expand a
-pre-existing /home partition and initialize a lot of files in the /var partition
-right on the disk. Even after it is done with that it may still perform poorly
-due to a lot of system logs being written. If you tinker around with the
+Even after SteamOS is done with initialization, it may still perform poorly on a
+USB key due to a lot of system logs being written. If you tinker around with the
 recovery image make sure that you have the system partition set read-only
 (`steamos-readonly enable`), otherwise expect continuous slow downs.
 
