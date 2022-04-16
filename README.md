@@ -17,6 +17,23 @@ add your own experiences, I'm mostly treating this like a Wiki.
 
 ## Hardware
 
+I got the 512 GB model as shipped in the EU region. The Steam Deck has the
+following hardware:
+
+- A CPU reporting itself as `AMD Custom APU 0405`
+  - 4 Zen 2 cores, 8 threads
+  - Frequency between 1.6 to 2.8 GHz
+  - AMD Van Gogh SoC (codenamed "Aerith"?)
+- 16 GB RAMter
+- An NVMe disk reporting itself as `Kingston Technology Company, Inc. OM3PDP3 NVMe SSD (rev 01)`
+- RTL8822CE 802.11ac wireless network adapter (handles Bluetooth and WLAN)
+
+It overall runs at peak wattage of 40 W.
+
+Depending on where you look on the Internet the hardware seems to be codenamed
+either "Jupiter" or "Neptune". Seemingly "Neptune" is the later established
+codename when Valve also referred to the Steam Deck as "SteamPal".
+
 ### Fan noise
 
 The community is aware of an issue with certain Decks being equipped with a
